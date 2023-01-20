@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,AAAA,YAAY,CAAC;EACjB,KAAK,ECGO,OAAO;EDFnB,MAAM,ECEM,OAAO,CDFE,GAAG,CAAC,MAAM;EAC/B,OAAO,EAAE,aAAa;EACtB,aAAa,EAAE,MAAM;CACtB",
+    "sources": [
+        "buttonPrimary.scss",
+        "../../variables.scss"
+    ],
+    "names": [],
+    "file": "buttonPrimary.css"
+}

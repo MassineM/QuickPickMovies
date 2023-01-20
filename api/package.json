@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js --ignore 'uploads/*' --ignore 'tests/*' --ignore 'node_modules/*' --ignore 'scripts/*'",
+    "test": "jest --detectOpenHandles --verbose --runInBand --bail",
+    "start": "SET TOKEN_SECRET = '1234567890' set DB_PASSWORD = 'uzA%3FsmMQ37QAU%26NV' set DB_USER = root"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase": "^9.6.11",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {}
+}
